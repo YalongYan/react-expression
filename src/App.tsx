@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Main from './components';
+import 'antd/dist/antd.css';
 
-const expListData = [
+import Main from './components';
+import { SubObj } from './types'
+ 
+const expListData: Array<SubObj> = [
   {
     id: 1,
     relationType: 'and',

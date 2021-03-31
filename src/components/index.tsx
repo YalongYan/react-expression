@@ -3,20 +3,13 @@ import React from 'react';
 import './index.scss'
 import ExpItem from './expItem'
 
-type SubObj = {
-  id: number,
-  relationType: string,
-  leftValue: string,
-  leftLabel: string,
-  rightValue: string,
-  rightLabel: string,
-}
+import { SubObj } from './../types'
 
 interface propsType {
   expList: SubObj[];
 }
 
-const Main: React.FC<propsType> = ({ expList }) => { 
+const ReactExpressionYd: React.FC<propsType> = ({ expList }) => {
   return (
     <div className="expressionContainer">
       {
@@ -32,4 +25,4 @@ const Main: React.FC<propsType> = ({ expList }) => {
     );
 };
 
-export default Main;
+export default ReactExpressionYd;

@@ -2,8 +2,7 @@ import React, { useCallback } from 'react';
 // import { Select } from 'antd';
 // const { Option } = Select;
 
-// 按需加载 只加载了Select 不全部加载 antd 的组件 
-import Select from 'antd/es/select';
+import { Select }  from 'antd';
 const { Option } = Select;
 
 const Main: React.FC = () => { 
